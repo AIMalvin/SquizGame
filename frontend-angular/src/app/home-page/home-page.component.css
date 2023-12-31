@@ -1,0 +1,47 @@
+/* Container for the whole page */
+.homepage-container {
+  text-align: center;
+  padding: 50px;
+  background-color: #282c34; /* Dark background for a gaming feel */
+  color: #ffffff; /* White text for contrast */
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styling for the main heading */
+.homepage-container h1 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  color: #ff9800; /* Orange color for vibrancy */
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* General button styling */
+.homepage-container button {
+  background-color: #4caf50; /* Green background, consistent with game buttons */
+  color: white;
+  padding: 15px 25px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+.homepage-container button:hover {
+  background-color: #43a047; /* Darker shade of green */
+  transform: scale(1.05); /* Slight increase in size */
+}
+
+/* Button focus effect for accessibility */
+.homepage-container button:focus {
+  outline: none;
+  box-shadow: 0 0 3px 2px rgba(0, 123, 255, 0.5);
+}

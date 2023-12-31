@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es2016",                                  // Compile down to ES2016 for Node.js compatibility
+    "module": "commonjs",                                // Use commonjs modules
+    "outDir": "./build",                                 // Output compiled JavaScript files to the 'build' folder
+    "rootDir": "./src",                                  // Root directory of your TypeScript files
+    "esModuleInterop": true,                             // Allows default imports from modules with no default export
+    "forceConsistentCasingInFileNames": true,            // Force filenames to be consistent in casing
+    "strict": true,                                      // Enable all strict type-checking options
+    "skipLibCheck": true                                 // Skip type checking of default library declaration files
+  },
+  "include": ["src/**/*"],                              // Include all files in the src directory
+  "exclude": ["node_modules", "build"]                  // Exclude node_modules and build directories from the source map
+}

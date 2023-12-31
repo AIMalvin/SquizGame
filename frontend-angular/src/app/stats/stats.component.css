@@ -1,0 +1,31 @@
+/* Container for the stats */
+.stats {
+    background-color: #282c34; /* Dark background for a consistent gaming feel */
+    color: #ffffff; /* White text for contrast */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    max-width: 500px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+/* Styling for the heading */
+.stats h2 {
+    color: #ff9800; /* Orange color for vibrancy */
+    margin-bottom: 15px;
+    font-size: 1.8em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Styling for paragraphs/statistics */
+.stats p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+/* Additional styling for emphasis */
+.stats p span {
+    font-weight: bold;
+    color: #4caf50; /* Green color for emphasis, matching the game buttons */
+}

@@ -1,0 +1,38 @@
+/* Main container styling */
+.dashboard {
+    text-align: center;
+    background-color: #282c34; /* Dark background for a gaming feel */
+    color: #ffffff; /* White text for contrast */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    max-width: 600px;
+    margin: 40px auto;
+}
+
+/* Styling for buttons */
+.dashboard button {
+    margin: 15px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4caf50; /* Green background, consistent with game buttons */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Button hover and active effects */
+.dashboard button:hover,
+.dashboard button:active {
+    background-color: #43a047; /* Darker green on hover/active */
+    transform: scale(1.05); /* Slight increase in size */
+}
+
+/* Button focus effect for accessibility */
+.dashboard button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+}

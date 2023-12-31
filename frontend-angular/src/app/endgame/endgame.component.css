@@ -1,0 +1,37 @@
+/* Container for the endgame message */
+.endgame-container {
+    text-align: center;
+    background-color: #282c34; /* Dark background for consistency with game theme */
+    color: #ffffff; /* White text for contrast */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    max-width: 300px;
+    margin: auto;
+}
+
+/* Styling for the 'Game Over' heading */
+.endgame-container h2 {
+    color: #d32f2f; /* Red color for emphasis */
+    margin-bottom: 15px;
+    font-size: 1.8em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Styling for the restart button */
+.endgame-container button {
+    background-color: #4caf50; /* Green background for restart button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Button hover and active effects */
+.endgame-container button:hover,
+.endgame-container button:active {
+    background-color: #388e3c; /* Darker green on hover/active */
+    transform: scale(1.05); /* Slightly enlarge button on hover/active */
+}
